@@ -1,9 +1,6 @@
 .chartWrapper {
-    margin    : 25px auto;
-    width     : 1400px;
-    height    : 600px;
-    border    : 1px solid #eee;
-    box-sizing: border-box;
+    width     : 100%;
+    height    : 100%;
     display   : flex;
     overflow  : hidden;
 }
