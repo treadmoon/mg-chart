@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true, //--
+    "composite": true, //--
+    "forceConsistentCasingInFileNames": true, //禁止对同一个文件的不一致的引用。
+    "isolatedModules": true, //将每个文件作为单独的模块（与“ts.transpileModule”类似）。
+    "module": "ESNext", //--
+    "moduleResolution": "Node", //--
+    "skipLibCheck": true, //忽略所有的声明文件（ *.d.ts）的类型检查。
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": [
+    "vite.config.ts"
+  ]
+}
