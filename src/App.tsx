@@ -1,7 +1,8 @@
 import './App.css';
 import { realData } from './data';
 
-import { Chart } from "../lib/index"
+import { Chart } from "../dist/my-lib.mjs"
+import "../dist/style.css"
 
 function App() {
   return (
